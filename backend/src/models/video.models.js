@@ -4,7 +4,7 @@ import mongooseAggregateandpaginate from "mongoose-aggregate-paginate-v2";
 
 const videoSchema =new Schema(
     {
-      tile:{
+      title:{
         type:String,
         required:true,
         trim:true
